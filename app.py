@@ -28,7 +28,7 @@ def main():
     if not os.path.isfile(f'images/{today}.jpg'):
         # If we don't have an image, get it from the NASA API
         # Get the API key from the .env file
-        api_key = os.getenv('API_KEY')
+        api_key = os.getenv('nasa_api_key')
         # Get the COTD from the NASA API
         response = requests.get(f'https://api.nasa.gov/planetary/apod?api_key={api_key}')
         # Parse the response
