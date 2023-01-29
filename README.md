@@ -16,6 +16,8 @@ pip install -r requirements.txt
 ```
 Command line should now indicate you are in a virtual environment
 
+Create a .env and fit it out as .env.example shows
+
 Run the application be executing the command
 ```
 python app.py
